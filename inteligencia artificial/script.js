@@ -47,6 +47,7 @@ let perguntaAtual;
 function mostrapergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+
 }
 
 motraPergunta();
